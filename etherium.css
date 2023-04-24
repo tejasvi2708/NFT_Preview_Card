@@ -1,0 +1,151 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(217, 54%, 11%); 
+   
+}
+ .container{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+} 
+.card{
+    background-color:hsl(216, 50%, 16%);
+    width:350px;
+    height:600px;
+    margin:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 15px 15px hsl(215, 64%, 14%);
+    border-radius: 15px;
+    
+}
+.pic{
+    height:285px;
+    width:280px;
+    /* margin-bottom:20px;
+   margin-left:40px;
+   margin-right:40px;*/
+   /* margin-top:30px;  */
+   /* margin:20px 30px; */
+   display:block;
+ 
+   background-color: hsl(216, 50%, 16%);
+}
+.pic img{   
+    background-size: cover;
+    background-position: center;
+    display: block; 
+   height:285px;
+   width:280px;
+   position:relative;
+   border-radius: 15px;
+/*   
+   margin:40px 40px 10px 10px ; */
+}
+
+.content{
+    display:block;
+    margin:20px 40px 20px 40px;
+}
+.content h3{
+    font-family: "Outfit", sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    color:whitesmoke;
+    padding-bottom: 20px;
+}
+.content h3 a{
+    text-decoration: none;
+    color:white; 
+}
+.content h3 a:hover{
+    text-decoration: none;
+    color:aqua;
+}
+.content p{
+    color:hsl(215, 51%, 70%);
+    font-size:18px;
+    padding-bottom:10px;
+}
+.line1{
+  
+    font-size:15px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:10px;
+    padding-bottom:30px;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+.eth{
+    display: flex;
+    
+    margin-left:5px;
+    height:auto;
+    width:80%;
+    
+}
+.eth p{
+    color:aqua;
+    font-size:20px;
+}
+.time{
+    display: flex;
+    color:aqua;
+    margin-left:5px;
+    height:auto;
+    width:80%;
+    
+}
+.time p{
+    color:hsl(215, 51%, 70%);
+    font-size:20px;
+}
+/* ethereum ion image div */
+.ether{
+    padding-right: 5%;
+}
+
+/* clock-ion image div */
+.clock{
+    padding-right: 5%;
+}
+/* .creation img{
+  
+    width:40px;
+    display:flex;
+    justify-content: baseline;
+} */
+.creation {
+    padding-top:25px;
+    display:flex;
+    justify-content: baseline;
+}
+.creation p{
+    padding-top:5%;
+}
+.avatar{
+    display:inline;
+    border:1px solid white;
+    border-radius: 50%;
+    width:40px;
+    margin-right:5%;
+    /* display:flex;
+    justify-content: baseline; */
+}
+.creation a{
+    text-decoration: none;
+    color:white;
+}
+.creation a:hover{
+    color: aqua;
+}
